@@ -1,0 +1,85 @@
+:root{
+    --color-primario :#ED088C;
+    --color-secundario :#333333;
+    --color-background :#E9E9E9;
+    --color-alt        :#FFFFFF;
+    --color-nav-princ  :#EDECE8;
+    --color-nav-sec    :#726E5F;
+    --color-foot-princ :#BC8F8F;
+    --color-foot-sec   :#ED7EA4;
+    --color-texto-princ:#bc8f8f;
+    --color-texto-sec  :#ff5900;
+}
+
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-background);
+}
+
+.color-texto{
+    color:var(--color-texto-princ)
+}
+
+
+
+
+
+
+
+/* Footer*/
+
+.iconos {  
+    text-align: center;
+    margin-top: 25px;  
+  }
+
+  .social-icons {   
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .social-icon {
+      margin: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .social-icon i {
+      background: var(--color-foot-princ);
+      color: white;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    
+    /* Efecto al pasar el mouse sobre los iconos */
+    .social-icon:hover {
+      opacity: 0.7;
+    }
+    
+footer div a{
+    display: inline-block;
+    
+    text-decoration: none;
+    /*color: rosybrown;*/
+    text-align: center;
+    margin-top: 10px;
+    font-style: oblique;
+}  
+
+footer p{
+    display: inline-block;
+    
+    color: var(--color-texto-princ);
+    text-align: center;
+    margin: 5px;
+    font-style: oblique;
+} 
